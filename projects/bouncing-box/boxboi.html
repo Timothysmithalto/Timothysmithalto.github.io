@@ -13,31 +13,33 @@
 		[class="box"] {
 			display: block;
 			position: absolute;
-			width: 70px;
-			height: 70px;
+			width: 90px;
+			height:90px;
 			top: 100px;
 			left: 0px;
-			background-color: green;
+			background-image: url("https://cafesaxophone.com/data/avatars/m/0/1.jpg?1452795906");
 			font-size: 300%;
 			text-align: center;
+			color: black;
 			
 		}
 		body {
-   background-image: url("https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif");
+   background-image: url("https://media.giphy.com/media/1Ui8Bpu6BJN4s/giphy.gif");
    background-color: #cccccc;
-   
+   background-repeat: 200;
+   background-size: 81px;
 }
-p {
+p { 
 	font-size : 300%;
-	color : green;
-	background-color: black;
+	color : black;
+	
+	background-size: 50px;
 }
 	</style>
 
 </head>
 <body class="board">
-	<p>"It's not easy being green"
-	-Kermit</p>
+	
    
 	<!-- HTML for the box -->
 	<div class="box">?</div>
@@ -91,7 +93,7 @@ p {
 			
 			var handleBoxClick = function() {
 				// TODO 4 / 5
-				speed = speed + 10;
+				speed = speed + 1;
 				position = 0;
 				points = points + 1;
 			};
